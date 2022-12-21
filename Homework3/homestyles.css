@@ -1,0 +1,120 @@
+body{
+    background-image: url(water.png);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .75rem;
+}
+.boatgrid{
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    grid-template-columns: repeat(12, 1fr);
+    align-content: center;
+}
+.boatpic1{
+    grid-column: 2/span 2;
+    align-self: center;
+}
+.boatlogo{
+    grid-column: 4/span 6;
+}
+.smallboatlogo{
+    visibility: hidden;
+}
+.boatpic2{
+    grid-column: 10/span 2;
+    align-self: center;
+}
+img {
+    border: 2px solid black;
+}
+.boat{
+    width: 80%;
+}
+.centerit{
+    text-align: center;
+}
+.logosize{
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.marginlook1{
+    grid-column: 1/ span 1;
+    grid-row: 1/ span 3;
+}
+.marginlook12{
+    grid-column: 12/ span 1;
+    grid-row: 1/ span 3;
+}
+.linksection{
+    grid-column: 1/ span 2;
+}
+.hyper{
+    color: white;
+    width: 50%;
+    padding: 5px;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+.logotext{
+    grid-column: 4/ span 6;
+    margin-left: 3em;
+    text-align: left;
+}
+.copyr{
+    grid-column: 4/ span 6;
+    text-align: center;
+}
+.abyc{
+    grid-column: 11/ span 2;
+}
+.marineimg{
+    width: 80%;
+}
+.linkimg{
+    display: inline;
+    width: 50%;
+}
+.cw{
+    visibility: collapse;
+}
+@media screen and  (max-width:600px){
+    body{
+        font-size: .6rem;
+    }
+    a:link{
+        text-decoration: none;
+    }
+    .linksection{
+        margin-top: 50%;
+    }
+    img.linkimg{
+        display: none;
+    }
+    .abyc{visibility: collapse;}
+    .boatpic1{visibility: collapse;}
+    .boatpic2{visibility: collapse;}
+    .logotext{
+        margin-top: 5%;
+        grid-column: 3 / span 8;
+        text-align: justify;
+    }
+    .linksection{
+        grid-column: 1 / span 1;  
+    }
+    .copyr{
+        grid-column: 4 / span 2; 
+        margin-top: 30%;
+    }
+    .cw{
+        visibility: visible;
+        grid-column: 10 / span 1; 
+        margin-top: 60%;
+        text-align: center;
+    }
+}
