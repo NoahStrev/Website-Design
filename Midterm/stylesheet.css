@@ -1,0 +1,119 @@
+body{
+    color: black;
+    font-family: "Comic Sans MS",  Arial, Helvetica, sans-serif;
+    font-size: .75rem;
+}
+.grid{
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    grid-template-columns: repeat(12, 1fr);
+    align-content: center;
+}
+.pawprint{
+    grid-column: 2/span 1;
+    align-self: center;
+}
+.logo{
+    font-size: 3em;
+    grid-column: 3/span 6;
+}
+.centerit{
+    text-align: center;
+}
+
+.logoimage{
+    width: 90%;
+    border-radius: 50%;
+}
+
+.middleimage{
+    padding: 2px;
+}
+
+.adoption{
+    grid-column: 10/span 1;
+    align-content: left;
+}
+
+.topimages{
+    width: 60%;
+}
+.centerit{
+    text-align: center;
+}
+.imagesection{
+    grid-column: 2/ span 10;
+    align-items: center;
+}
+
+.linksection{
+    grid-column: 2/ span 1;
+}
+
+.hyper{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    width: 70%;
+    margin-left: 7%;
+    padding: 8px;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+.infotext{
+    grid-column: 5/ span 7;
+    margin-left: 3em;
+    text-align: left;
+    margin-top: 10%;
+}
+.copyr{
+    grid-column: 4/ span 4;
+    text-align: center;
+}
+
+.wantadopt{
+    grid-column: 4/ span 6;
+    text-align: center;
+}
+
+.adopttext{
+    font-size: 1.3rem;
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+    border-radius: 12px;
+    width: 29%;
+    margin-left: 18%;
+    padding: 6px;
+}
+@media screen and  (max-width:600px){
+    body{
+        font-size: .6rem;
+    }
+    .logo{font-size: .9rem;}
+    .adoption{grid-row: 2;
+        grid-column: 5 / span 3; }
+    .middleimage{visibility: collapse;
+        display: none;}
+    .pawprint{visibility: collapse;}
+    .linksection{
+        grid-column: 1 / span 1;  
+    }
+    .wantadopt{
+        grid-column: 3 / span 11; 
+    }
+    .infotext{grid-column: 5/ span 5;}
+    .hyper{width: 110%;}
+    .adopttext{font-size: .8rem;}
+    .copyr{
+        grid-column: 5 / span 2; 
+        margin-top: 30%;
+    }
+
+}

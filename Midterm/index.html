@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streveler Midterm Exam</title>
+    <link rel = "stylesheet" href="stylesheet.css"/>
+    <script>
+        function dogInfo(){
+            document.getElementById("msgArea").innerHTML = 
+                "There are many reason why dogs are called humans' best friends: not only do they offer " +
+                "unparalleled companionship, but a growing body of research shows they also boost human "+
+                "health. Owning a dog can prompt you to be more physically active — have leash, will walk. "+
+                "It can also help you be calmer, more mindful, and more present in your life; "+
+                "make kids more active, secure, and responsible; "+
+                "improve the lives of older individuals; "+
+                "make you more social and less isolated."
+            return false
+        }
+        function catInfo(){
+            document.getElementById("msgArea").innerHTML = 
+                "You’ll save more than one life by adopting a cat."+
+                "According to the ASPCA, 3.2 million cats can be found in shelters "+
+                "every year and of these, about 860,000 are euthanized annually. "+
+                "Adopting a cat not only helps one of these many animals, looking for a home, "+
+                "but also opens a space for shelters and rescue groups to take in another cat."
+            return false
+        }
+    </script>
+</head>
+<body><!--Noah Streveler-->
+    <div class="grid">
+        <div class="marginlook1">&nbsp;</div>
+        <div class="pawprint">
+            <img class = "topimages" src="pawprint.png" alt="Pawprint"/>
+        </div>
+
+        <div class="logo">
+            <h2 class="centerit">PET ADOPTION TODAY</h2>
+        </div>
+
+        <div class="adoption">
+            <img class = "logoimage" src="logo.jpg" alt="Adopt a pet Sign"/>
+        </div>
+        <!--- row two elements-->
+        <div class="imagesection">
+            <img class = "middleimage" src="cat.jpg" alt="Adopt a pet Sign"/>
+            <img class = "middleimage" src="loveme.jpg" alt="Adopt a pet Sign"/>
+            <img class = "middleimage" src="cutie.jpg" alt="Adopt a pet Sign"/>
+            <img class = "middleimage" src="kitten.jpg" alt="Adopt a pet Sign"/>
+
+        </div> <!-- End Linksection-->
+
+        <div class="linksection">
+            <br/><br/><br/><br/><br/>
+            <div class="hyper"><!-- Home -->
+                <a href="" onclick="return dogInfo()">
+                    Dog Information
+                </a>
+            </div>
+            <br/>
+            <div class="hyper">
+                <a href="" onclick="return catInfo()">
+                    Cat Information
+                </a>
+            </div>
+            <br/>
+            <br/>
+        </div>
+
+        <div class="infotext" id="msgArea">
+
+        </div>
+
+        <div class="wantadopt">
+            <br/><br/>
+            <div class="adopttext">
+                <a href="page2.html">
+                    Yes! I want to Adopt!!
+                </a>
+            </div>
+        </div>
+
+        <div class="copyr">
+            <br/><br/>
+            &copy;Noah Streveler
+        </div>
+
+    </div>
+    <br/><br/>
+</body>
+</html>
