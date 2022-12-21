@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Assignment 4 Home Page</title>
+    <link rel = "stylesheet" href="index.css"/>
+    <script>
+        dates = ["march31", "april1", "april8", "april14", "april18", "april21", "april29"] 
+        function processForm(soccertickets){
+            msg = "";
+            console.log("here 1");
+            totalcost = 0;
+            ticketcount = 0;
+            console.log(dates);
+            console.log(dates.length)
+
+            for (datesSelect=0; datesSelect < dates.length; datesSelect++) {
+                
+                console.log(datesSelect);
+                // scripting languages enable us to create
+                // variables dynamically
+                
+                item = eval("soccertickets." + dates[datesSelect] + "qty")
+                console.log(item)
+                
+                itemqty = item.value;
+                console.log(itemqty)
+                
+                if (itemqty > 0) {
+                    //ordering tickets for this date
+                    // fetch the price
+                    itemp = eval("soccertickets." + dates[datesSelect] + "price")
+                    
+                    // itemp is the HTML input tag object for date price
+                    
+                    itemprice = itemp.value
+                    msg += itemqty + " ticket(s) for " + 
+                    dates[datesSelect] + " at a per price of $" + itemprice;
+                    
+                    itemcost = parseInt(itemqty) * parseFloat(itemprice);
+                    msg += " for a total of $" + itemcost.toFixed(2) + ", ";
+                    totalcost += itemcost;
+                }
+                
+            }
+        finalmsg = "You ordered " + msg + ". Your grand total amount owed is $" +
+        totalcost.toFixed(2) + ". Thank you";
+    
+        document.getElementById('output').innerHTML = finalmsg;
+
+        return false;
+    }
+    </script>
+</head>
+<body><!--Noah Streveler--> 
+    <form method="get" onSubmit="return processForm(this)" >
+    <div class="soccergrid">
+        <div class="marginlook1">&nbsp;</div>
+        <div class="girlsoccer">
+            <img class = "soccer" src="soccerplayer.png" alt="A Girl Playing Soccer"/>
+        </div>
+
+        <div class="soccerlogo">
+            <a href="index.html">
+                LAKE UKICKEE <br/>SOCCER
+            </a>
+        </div>
+
+        <div class="lake">
+            <img class = "soccer" src="lake.jpg" alt="A boat dock"/>
+        </div>
+        <div class="marginlook12">&nbsp;</div>
+        <!--- row two elements-->
+        <div class="linksection">
+            <div class="hyper"><!-- Home -->
+                <img style = "vertical-align: middle;" class = "linkimg" src="soccerbutton.png" alt="Soccer Ball Image"/>
+                Home
+            </div>
+            <br/>
+            <div class="hyper">
+                <a href="photos.html">
+                    <img style = "vertical-align: middle;" class = "linkimg" src="soccerbutton.png" alt="Soccer Ball Image"/>
+                    Photos
+                </a>
+            </div>
+            <br/>
+
+            <div class="hyper">
+                <a href="rules.html">
+                    <img style = "vertical-align: middle;" class = "linkimg" src="soccerbutton.png" alt="Soccer Ball Image"/>
+                    Soccer Rules
+                </a>
+            </div>
+            <br/>
+            <div class="hyper">
+                <a href="schedule.html">
+                    <img style = "vertical-align: middle;"class = "linkimg" src="soccerbutton.png" alt="Soccer Ball Image"/>
+                    Team Schedule
+                </a>
+            </div>
+            <br/>
+
+            <div class="hyper">
+                <a href="tickets.html">
+                    <img style = "vertical-align: middle;" class = "linkimg" src="soccerbutton.png" alt="Soccer Ball Image"/>
+                    Get tickets online!
+                    
+                </a>
+            </div>
+            <br/>
+
+            <div class="hyper">
+                <a href="contacts.html">
+                    <img style = "vertical-align: middle;" class = "linkimg" src="soccerbutton.png" alt="Soccer Ball Image"/>
+                    Find us
+                </a>
+            </div>
+            <br/>
+        </div> <!-- End Linksection-->
+
+        <div class = gametime>
+        Game Time
+            <br/><br/>
+            <input type="checkbox" name = "march31" value="no">
+            <label for="march31">March 31 6:00pm</label>
+            <br/>
+
+            <input type="checkbox" name = "april1" value="no">
+            <label for="april1">April 1 6:00pm</label>
+            <br/>
+
+            <input type="checkbox" name = "april8" value="no">
+            <label for="april8">April 8 7:00pm</label>
+            <br/>
+
+            <input type="checkbox" name = "april14" value="no">
+            <label for="april14">April 14 6:30pm</label>
+            <br/>
+
+            <input type="checkbox" name = "april18" value="no">
+            <label for="april18">April 18 6:00pm</label>
+            <br/>
+
+            <input type="checkbox" name = "april21" value="no">
+            <label for="april21">April 21 5:00pm</label>
+            <br/>
+            <input type="checkbox" name = "april29" value="no">
+            <label for="april29">April 29 7:00pm</label>
+            <br/>
+        </div>
+
+        <div class="opponent">
+            Opponent 
+            <br/><br/>
+            Yucon Village
+            <br/>
+            Beach Park 
+            <br/>
+            Monarch River 
+            <br>
+            Sands Resort 
+            <br>
+            Harborside 
+            <br>
+            Yucon Village 
+            <br/>
+            Sands Resort 
+        </div>
+
+        <div class="priceperticket">
+            Price Per Ticket 
+            <br/><br/>
+            $12.50 
+            <br/>
+            $10.50 
+            <br/>
+            $10.50 
+            <br/>
+            $12.50 
+            <br/>
+            $11.00 
+            <br/>
+            $12.50 
+            <br/>
+            $12.50 
+            <br/>
+        </div>
+
+        <div class="orderamount">
+            Order Quantity
+            <br/><br/>
+
+            <label for="march31">Qty:</label>
+            <input type="number" min="0" max="999" name="march31qty">
+            <input type="hidden" name="march31price" value="12.50"  />
+            <br/>
+
+            <label for="april1">Qty:</label>
+            <input type="number" min="0" max="999" name="april1qty">
+            <input type="hidden" name="april1price" value="10.50"  />
+            <br/>
+
+            <label for="april8">Qty:</label>
+            <input type="number" min="0" max="999" name="april8qty">
+            <input type="hidden" name="april8price" value="10.50"  />
+            <br/>
+
+            <label for="april14">Qty:</label>
+            <input type="number" min="0" max="999" name="april14qty">
+            <input type="hidden" name="april14price" value="12.50"  />
+            <br/>
+
+            <label for="april18">Qty:</label>
+            <input type="number" min="0" max="999" name="april18qty">
+            <input type="hidden" name="april18price" value="11.00"  />
+            <br/>
+            
+            <label for="april21">Qty:</label>
+            <input type="number" min="0" max="999" name="april21qty">
+            <input type="hidden" name="april21price" value="12.50"  />
+            <br/>
+
+            <label for="april29">Qty:</label>
+            <input type="number" min="0" max="999" name="april29qty">
+            <input type="hidden" name="april29price" value="12.50"  />
+            <br/>
+        </div>
+
+        <div class="submit"> 
+                <label for="fname">Your name:</label>
+                <input type="text" id="fname" name="fname" required><br/><br/>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            <br/><br/>
+            <input type="submit" value="Process My Order!" />
+        </div>
+</form>
+        <div class="sideline"></div>
+
+        <div class="rightside">
+            Our Sponsors
+            <br/><br/>
+            <a href="https://www.scheels.com/c/soccer">
+                <img class = "sideimg" src="soccerfunny.jpg" alt="Soccer Ball Guy"/>
+                <br/>
+            </a>
+            Shop at our Soccer Superstore!
+            
+            <hr>
+
+            <a href="https://www.soccerworldofbrookfield.net/">
+                <img class = "sideimg" src="soccerlove.jpg" alt="Soccer Ball Heart"/>
+                <br/>
+            </a>
+            Check us for great deals on soccer gifts
+            
+            <hr>
+
+            <a href="http://www.ukickee.org">
+                <img class = "sideimg" src="roselake.jpg" alt="Soccer Ball Heart"/>
+                <br/>
+            </a>
+            Visit Lake Ukickee
+            
+        </div>
+
+        <div class="copyr">
+            &copy;Noah Streveler
+            <br/><br/>
+        </div>
+
+        <div class="bottomline">
+            <hr>
+        </div>
+        <div id="output" class="output"></div>
+
+    </div>
+    <br/><br/>
+    </body></form>
+    </body>
+</body>
+</html>
