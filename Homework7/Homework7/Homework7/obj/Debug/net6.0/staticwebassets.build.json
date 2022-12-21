@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "H57A41uh1k2wABp7gIBS8OmGrlaW+g18cMwCkNpxvu8=",
+  "Source": "Homework7",
+  "BasePath": "_content/Homework7",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Homework7\\wwwroot",
+      "Source": "Homework7",
+      "ContentRoot": "C:\\Users\\nstrevel\\OneDrive - Carroll University\\Junior Year\\csc319\\Hw7\\Homework7\\Homework7\\wwwroot\\",
+      "BasePath": "_content/Homework7",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\nstrevel\\OneDrive - Carroll University\\Junior Year\\csc319\\Hw7\\Homework7\\Homework7\\wwwroot\\animation.gif",
+      "SourceId": "Homework7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nstrevel\\OneDrive - Carroll University\\Junior Year\\csc319\\Hw7\\Homework7\\Homework7\\wwwroot\\",
+      "BasePath": "_content/Homework7",
+      "RelativePath": "animation.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\animation.gif"
+    },
+    {
+      "Identity": "C:\\Users\\nstrevel\\OneDrive - Carroll University\\Junior Year\\csc319\\Hw7\\Homework7\\Homework7\\wwwroot\\index.html",
+      "SourceId": "Homework7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nstrevel\\OneDrive - Carroll University\\Junior Year\\csc319\\Hw7\\Homework7\\Homework7\\wwwroot\\",
+      "BasePath": "_content/Homework7",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\nstrevel\\OneDrive - Carroll University\\Junior Year\\csc319\\Hw7\\Homework7\\Homework7\\wwwroot\\newscript.js",
+      "SourceId": "Homework7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nstrevel\\OneDrive - Carroll University\\Junior Year\\csc319\\Hw7\\Homework7\\Homework7\\wwwroot\\",
+      "BasePath": "_content/Homework7",
+      "RelativePath": "newscript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\newscript.js"
+    }
+  ]
+}

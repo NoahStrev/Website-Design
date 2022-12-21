@@ -1,0 +1,84 @@
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\appsettings.json
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Homework7.staticwebassets.runtime.json
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Homework7.exe
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Homework7.deps.json
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Homework7.runtimeconfig.json
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Homework7.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Homework7.pdb
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Microsoft.Graph.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Microsoft.Graph.Core.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\Homework7.csproj.AssemblyReference.cache
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\Homework7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\Homework7.AssemblyInfoInputs.cache
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\Homework7.AssemblyInfo.cs
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\Homework7.csproj.CoreCompileInputs.cache
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\Homework7.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\Homework7.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\scopedcss\bundle\Homework7.styles.css
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\Homework7.csproj.CopyComplete
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\Homework7.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\refint\Homework7.dll
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\Homework7.pdb
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\Homework7.genruntimeconfig.cache
+C:\Users\nstrevel\source\repos\Homework7\Homework7\obj\Debug\net6.0\ref\Homework7.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\appsettings.json
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Homework7.staticwebassets.runtime.json
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Homework7.exe
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Homework7.deps.json
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Homework7.runtimeconfig.json
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Homework7.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Homework7.pdb
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Microsoft.Graph.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Microsoft.Graph.Core.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\Homework7.csproj.AssemblyReference.cache
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\Homework7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\Homework7.AssemblyInfoInputs.cache
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\Homework7.AssemblyInfo.cs
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\Homework7.csproj.CoreCompileInputs.cache
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\Homework7.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\Homework7.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\scopedcss\bundle\Homework7.styles.css
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\Homework7.csproj.CopyComplete
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\Homework7.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\refint\Homework7.dll
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\Homework7.pdb
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\Homework7.genruntimeconfig.cache
+C:\Users\nstrevel\OneDrive - Carroll University\Junior Year\csc319\Hw7\Homework7\Homework7\obj\Debug\net6.0\ref\Homework7.dll
