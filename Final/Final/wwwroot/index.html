@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Exam Fall 2022</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap'); </style>
+    <link href="candies.css" rel="stylesheet" >
+    <script src="newscript.js"></script>
+</head>
+<body>
+   <h5 class="redc">Product Information</h5>
+   <div class="candiesgrid">
+    <div class="banner">
+       <h2 class="redc centerit">S  w e e t  &emsp13;&emsp13; S h o p &emsp13;&emsp13;  o f &emsp13;&emsp13; W o n d e r m e n t</h2>
+       <img src="Images/candiesbanner.png" class="centerit borderit" />
+       <br /> <br />
+    </div>
+     
+    <div class="mystery">
+        <br/>Want an estimate <br/>on a<br />
+        <span style="color:white;background-color:red;font-size: 1.3em;">Mystery</span>
+        <br /> gift bag??
+        <br /><br /> How many pounds? 
+        <input type="text" id="lbs" name="lbs" maxlength="2" size="2" />
+        <br /><br />
+        <button class="littlebutton" onclick="getaverageprice()">Get Estimate</button>
+        <div id="mysteryestimate">&nbsp;</div> 
+       </div>
+    <div class="buttonsweet" >
+        <button onclick="getSweets()">Display Sweets</button>
+    </div>
+    <div class="buttonsf" >
+        <button>Display Sugar-Free</button>
+    </div>
+    <div class="categories">
+        <div id="displaychoice"></div>
+      
+     </div>
+</div>
+</body>
+</html>
